@@ -6,7 +6,7 @@ public class bubbleSort {
         int temp;
         for (int i = 0; i < a.length; i++) {
 //            int flag = 0;
-            for (int j = 0; j < (a.length - 1); j++) {
+            for (int j = 0; j < (a.length - 1); j++) {          //(a.length - 1-i) for less time consump. it will freez last element
                 if (a[j] > a[j + 1]) {
                     temp = a[j];
                     a[j] = a[j + 1];
