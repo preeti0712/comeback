@@ -14,7 +14,7 @@ public class secondLargest {
             }
         }
         for(int i=0;i<a.length;i++){
-            System.out.println(a[i]);       //decending order of array
+            System.out.println(a[i]+"");       //decending order of array
         }
         System.out.println("second largest element in the provided array is "+a[1]);
 //        System.out.println("second smallest element in the provided array is "+a[1]);
